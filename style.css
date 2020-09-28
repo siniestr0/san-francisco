@@ -1,25 +1,39 @@
 body {
-background-image: url(images/fondo.png);
+    background-image: url(images/fondo.png);
+
+}
+
+div {
+    border: 1px solid black;
+    margin: auto;
+    width: 90%;
 
 }
 
 
-div {
-    width: 90%;
+.principal{
+    width: 100%;
     margin: auto;
     border: 1px solid black;
     border-color: black;
 }
+
+.cabecera {
+    border: 1px;
+    border-color: black;
+    margin: auto;
+
+}
+
+
 /*
 border radius es para que los bordes sean redondos
 */
-.banner{
-    background-image: url(images/sanfrancisco.jpg);
-    background-size: 100%;
-    height: 200px;
-    border-radius: 5px;
-    background-repeat: no-repeat;
-    position: relative;
+
+
+article {
+text-align: justify;
+
 }
 
 .separador {
@@ -35,6 +49,8 @@ nav {
     margin-right: 125px;
     margin-bottom: 0%;
     font-size: 25px;
+    
+    
 }
 
 nav li{
