@@ -1,47 +1,56 @@
 body {
-    background-image: url(images/fondo.png);
+background-image: url(images/fondo.png);
 
 }
 
-div {
-    border: 1px solid black;
-    margin: auto;
-    width: 90%;
+div{
+    width: 85%;
+    margin: 0 auto;
+    
+}
+article {
+text-align: justify;
+padding-top: 5px;
 
 }
 
-
-.principal{
-    width: 100%;
-    margin: auto;
-    border: 1px solid black;
-    border-color: black;
-}
-
-.cabecera {
-    border: 1px;
-    border-color: black;
-    margin: auto;
+section img.pinza{
+float: left;
 
 }
-
-
 /*
 border radius es para que los bordes sean redondos
 */
+.puente {
+    padding-top: 10px;
+    margin: auto;
+    display: block;
+    border-radius: 8px;
+}
 
-
-article {
-text-align: justify;
-
+section {
+margin: auto;
+width: 50%;
+float: left;
+margin-top: 20px;
+margin-left: 90px;
 
 }
 
+aside {
+margin-top: 20px;
+margin-right: 190px;
+border-radius: 10px;
+background-color: darkgrey;
+float: right;
+width: 20%;
 
+}
 
 .separador {
     margin: auto;
     display: block;
+    padding-top: 15px;
 }
 
 /* nav li es el menu de navegacion inline para que sea todo una linea
@@ -52,12 +61,16 @@ nav {
     margin-right: 125px;
     margin-bottom: 0%;
     font-size: 25px;
-    
-    
 }
 
 nav li{
-    display:inline;
-    
+    display:inline;  
+}
+div li{
+display: inline;
+
 }
 
+div.reset {
+    clear: both;
+  }
