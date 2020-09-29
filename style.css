@@ -17,10 +17,9 @@ section img.pinza{
 float: left;
 
 }
-/*
-border radius es para que los bordes sean redondos
-*/
+
 .puente {
+/*border radius es para que los bordes sean redondos*/
 padding-top: 10px;
 margin: auto;
 display: block;
@@ -80,4 +79,39 @@ margin: left;
 
 div.reset {
 clear: both;
+}
+
+div#final {
+
+margin: auto;
+}
+
+#tweet, #my_pictures, #my_friends {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#tweet {
+    width: 28%;
+}
+
+#my_pictures {
+    width: 35%;
+}
+
+#my_friends {
+    width: 35%;
+}
+
+#my_pictures img {
+/*la imagen esta rodeada de un borde negro*/
+    border: 1px solid black;
+    margin-right: 2px;
+}
+
+#my_friends ul{
+display: inline-block;
+vertical-align: top;
+width: 50%;
+
 }
