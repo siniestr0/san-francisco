@@ -1,8 +1,9 @@
+/*propiedades del body añadir poco a poco las caracteristicas para ver como queda*/
 body {
 background-image: url(images/fondo.png);
 
 }
-
+/*configurar el div general*/
 div{
 width: 85%;
 margin: 0 auto;  
@@ -12,52 +13,52 @@ article {
 text-align: justify;
 padding-top: 5px;
 }
-
+/*esto es para que al lado del icono de la pinza salta el texto*/
 section img.pinza{
 float: left;
 
 }
-
 /*Propiedades de BANNER*/
-
 #banner {
-    background-image: url("images/sanfrancisco.jpg");
-    height: 175px;
-    /*necesita la altura para saber la medida del div*/
-    background-repeat: no-repeat;
-    /*la imagen de fondo del div no se repite*/
-    background-size: 100%;
-    /*la imagen de fondo ocupa todo el div*/
-    border-radius: 8px;
-    /*para que las esquinas salgan redondas*/
-    position: relative;
-    margin-top: 15px;
-    margin-bottom: 25px;
+background-image: url("images/sanfrancisco.jpg");
+height: 175px;
+/*necesita la altura para saber la medida del div*/
+background-repeat: no-repeat;
+/*la imagen de fondo del div no se repite*/
+background-size: 100%;
+/*la imagen de fondo ocupa todo el div*/
+border-radius: 8px;
+/*para que las esquinas salgan redondas*/
+position: relative;
+margin-top: 15px;
+margin-bottom: 25px;
 }
 
+/*es la barra transparente que aparece dentro del banner del puente de san francisco*/
 #mini {
-    height: 25px;
-    /*pongo ese 99,3 para que se ajuste al fondo del puente y no quede huecos*/
-    width: 99.3%;
-    /* ese 0.6 es para hacer la transparencia*/
-    background-color: rgb(0, 0, 0, 0.6);
-    font-family: 'Trebuchet MS';
-    font-size: 15px;
-    color: white;
-    padding: 5px;
-    padding-top: 15px;
-    padding-left: 4px;
-    position: absolute;
-    bottom: 0px;
-    border-radius: 8px;
+height: 25px;
+/*pongo ese 99,3 para que se ajuste al fondo del puente y no quede huecos*/
+width: 99.3%;
+/* ese 0.6 es para hacer la transparencia*/
+background-color: rgb(0, 0, 0, 0.6);
+font-size: 15px;
+color: white;
+padding: 5px;
+padding-top: 15px;
+padding-left: 4px;
+position: absolute;
+bottom: 0px;
+border-radius: 8px;
 }
 
+/*es el boton pequeño de la derecha que marca ver articulo*/
 #seeArticle {
 position: absolute;
 height: 20;
 bottom: 0px;
 right: 16px;
 font-size: 20px;
+/*como tiene un fondo rojo, lo ponemos y así creamos el boton*/
 background: url(images/fondo\ degradado.png);
 border-radius: 3px;
 color: white;
@@ -69,7 +70,9 @@ font-size: 15px;
 section {
 margin: auto;
 width: 50%;
+/*ponemos el float para poder alinearlo con el aside que irá a su derecha*/
 float: left;
+/*los margin para poder separarlo de los bordes y alinearlo con el resto de div*/
 margin-top: 20px;
 margin-left: 90px;
 
@@ -80,15 +83,18 @@ padding-right: 20px;
 text-align: justify;
 margin-top: 20px;
 margin-right: 190px;
+/*como teneos los bordes redondeados, ponemos el radius*/
 border-radius: 10px;
 background-color: darkgrey;
+/*pone el float derecha para que esté alineado con el articulo que es SECTION*/
 float: right;
 width: 20%;
 
 }
-
+/*usamos el selector del punto porque es un class para la foto del burro dentro del aside*/
 .burro {
 display: block;
+/*como está en medio del aside, le decimos que tanto margen izquierda y derecha auto y lo centra*/
 margin-left: auto;
 margin-right: auto;
 
@@ -100,16 +106,14 @@ margin: auto;
 display: block;
     
 }
-
+/*selector class con el punto*/
 .separador {
 margin: auto;
 display: block;
 padding-top: 15px;
 }
 
-/* nav li es el menu de navegacion inline para que sea todo una linea
-tambien ponemos el texto alineado a la derecha.
-*/
+/*nav li es el menu de navegacion inline para que sea todo una linea tambien ponemos el texto alineado a la derecha*/
 nav {
 text-align: right;
 margin-right: 125px;
