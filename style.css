@@ -4,14 +4,13 @@ background-image: url(images/fondo.png);
 }
 
 div{
-    width: 85%;
-    margin: 0 auto;
-    
+width: 85%;
+margin: 0 auto;  
 }
+
 article {
 text-align: justify;
 padding-top: 5px;
-
 }
 
 section img.pinza{
@@ -22,10 +21,10 @@ float: left;
 border radius es para que los bordes sean redondos
 */
 .puente {
-    padding-top: 10px;
-    margin: auto;
-    display: block;
-    border-radius: 8px;
+padding-top: 10px;
+margin: auto;
+display: block;
+border-radius: 8px;
 }
 
 section {
@@ -48,23 +47,23 @@ width: 20%;
 }
 
 .separador {
-    margin: auto;
-    display: block;
-    padding-top: 15px;
+margin: auto;
+display: block;
+padding-top: 15px;
 }
 
 /* nav li es el menu de navegacion inline para que sea todo una linea
 tambien ponemos el texto alineado a la derecha.
 */
 nav {
-    text-align: right;
-    margin-right: 125px;
-    margin-bottom: 0%;
-    font-size: 25px;
+text-align: right;
+margin-right: 125px;
+margin-bottom: 0%;
+font-size: 25px;
 }
 
 nav li{
-    display:inline;  
+display:inline;  
 }
 div li{
 display: inline;
@@ -72,5 +71,5 @@ display: inline;
 }
 
 div.reset {
-    clear: both;
-  }
+clear: both;
+}
