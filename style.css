@@ -14,7 +14,32 @@ padding: 2%; /* yo no tenia padding*/
 border: solid 1px red; /* a mi no me iba el border ahora si que va*/
 
 }
+/* con los cambios del body, ahora si que estan en un cuadro definido
+Hay que elegir los selectores correctos, sin necesidad de poner DIV, con 
+el selector #xxxx   podemos ir definiendo configuraciones distintas
+para cada elemento en particular.*/
 
+/*estas partes del menu son de yolanda
+Hemos enmarcado todas las partes del menu por separado ( entiendo que es
+para poder ver y configurar cada una de ellas de forma individual y ver
+como se compartan ) */
+#menu {
+    border: solid 1px red;
+    width: 100%;
+}
+
+#menu img {
+    border: solid 1px green;
+
+}
+
+#menu p {
+    border: solid 1px green;
+}
+
+#menu nav {
+    border: solid 1px green;
+}
 
 article {
 text-align: justify;
