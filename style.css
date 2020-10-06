@@ -65,6 +65,7 @@ border-radius: 8px;
 position: relative;
 margin-top: 15px;
 margin-bottom: 25px;
+border: solid red;
 }
 
 /*es la barra transparente que aparece dentro del banner del puente de san francisco*/
