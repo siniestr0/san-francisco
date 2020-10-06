@@ -5,10 +5,16 @@ background-image: url(images/fondo.png);
 }
 /*PREGUNTAR SI TODO LO QUE SE PONGA AQUI PREDOMINA POR ENCIMA DEL RESTO DE CONFIGURACIONES*/
 /*configurar el div general*/
-div{
-width: 85%;
-margin: 0 auto;  
+
+/*hay cosas de yolanda*/
+#principal {
+width: 900px; /*yo tenia un % y se cambia a px'ls*/
+margin: auto;
+padding: 2%; /* yo no tenia padding*/
+border: solid 1px red; /* a mi no me iba el border ahora si que va*/
+
 }
+
 
 article {
 text-align: justify;
