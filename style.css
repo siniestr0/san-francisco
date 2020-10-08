@@ -103,28 +103,45 @@ font-size: 15px;
 
 section {
 margin: auto;
-width: 50%;
+width: 65%;
 /*ponemos el float para poder alinearlo con el aside que irá a su derecha*/
 float: left;
 /*los margin para poder separarlo de los bordes y alinearlo con el resto de div*/
 margin-top: 20px;
-margin-left: 90px;
+margin-left: 0px;
 
+border: solid 1px;
 }
 
+/*aqui tenemos correcciones con los % para alinearlo con el article*/
 aside {
-padding-right: 20px;
+padding-right: 2%;
+padding-left: 2%;
+padding-bottom: 2%;
 text-align: justify;
-margin-top: 20px;
-margin-right: 190px;
-/*como teneos los bordes redondeados, ponemos el radius*/
+margin-top: 0.5%;
+
+/*como tenemos los bordes redondeados, ponemos el radius*/
 border-radius: 10px;
 background-color: darkgrey;
 /*pone el float derecha para que esté alineado con el articulo que es SECTION*/
 float: right;
-width: 20%;
+width: 28%;
+
+border: solid blue 1px;
 
 }
+
+aside h1{
+
+text-align: left;
+}
+
+#redes {
+padding-left: 6%;
+
+}
+
 /*usamos el selector del punto porque es un class para la foto del burro dentro del aside*/
 .burro {
 display: block;
@@ -183,6 +200,7 @@ padding-top: 25px;
 clear: both;
 margin-top: -200px;
 
+border: solid 1px red;
 }
 
 #tweet, #my_pictures, #my_friends {
@@ -209,9 +227,11 @@ margin-right: 2px;
 }
 
 #my_friends ul{
+margin-top: 0;
 display: inline-block;
 vertical-align: top;
 list-style-image: url("images/ico_liensexterne.png");
-width: 50%;
+width: 40%;
+padding-left: 5%;
 
 }
