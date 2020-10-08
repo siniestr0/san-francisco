@@ -3,6 +3,10 @@ body {
 background-image: url(images/fondo.png);
 
 }
+h1 {
+font-size: 20px;
+
+}
 /*PREGUNTAR SI TODO LO QUE SE PONGA AQUI PREDOMINA POR ENCIMA DEL RESTO DE CONFIGURACIONES*/
 /*configurar el div general*/
 
@@ -40,6 +44,10 @@ como se compartan ) */
 #menu nav {
     border: solid 1px green;
 }
+header{
+
+display: inline-block;
+}
 
 article {
 text-align: justify;
@@ -66,6 +74,8 @@ position: relative;
 margin-top: 15px;
 margin-bottom: 25px;
 border: solid red;
+/* esto es la sombra del banner*/
+box-shadow: 0px 4px 4px #1c1a19;
 }
 
 /*es la barra transparente que aparece dentro del banner del puente de san francisco*/
@@ -196,10 +206,11 @@ margin: auto;
 }
 
 footer {
+width: 60%;
+margin: auto;
 padding-top: 25px;
 clear: both;
 margin-top: -200px;
-
 border: solid 1px red;
 }
 
